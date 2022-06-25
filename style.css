@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Pacifico', cursive;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    overflow: hidden;
+    
+    /* overflow: hidden; */
 }
 .navbar{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -16,7 +19,7 @@ body{
 #image{
     text-align: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(../web2.jpg);
-    height:85vh;
+    height:90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,9 +42,54 @@ font-weight: 50;
 .projects{
     text-align: center;
 }
-.row{
+/* .row{
 padding: 15px;
-}
+} */
 .card{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1.5px 4px;
+    width:100%;
+    border-radius: 16px !important;
+    padding: 8px;
+    transition: 0.5s;
+}
+.card-img-top{
+    /* border-radius: 16px;/ */
+    
+}
+.pro{
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+
+/* @media (max-width: 576px) { .card{
+    background:red  !important
+} }
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { .card{
+    background:green !important
+}}
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { .card{
+    background:blue !important
+} } */ 
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { .card{
+    background:yellow !important
+} } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { .card{
+    background:black !important
+} } */
+/* @media (min-width: 1300px) { .card{
+    background:black !important
+} } */ 
+#projects{
+height: 90vh;
+padding-top: 10px;
 }
